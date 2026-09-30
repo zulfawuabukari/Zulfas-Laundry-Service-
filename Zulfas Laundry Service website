@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Zulfa's Laundry</title>
+
+    <style>
+        .laundry-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 50% !important;
+    border: 5px solid #1976d2;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #ffffff, #dbeafe);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(25,118,210,0.18);
+    border: 1px solid #e3f2fd;
+}
+.container:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+    color: #1976d2;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+    h2 {
+    color: #1976d2;
+    margin-top: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #1976d2;
+    padding-bottom: 5px;
+}
+
+        p {
+            line-height: 1.6;
+        }
+
+        li {
+    margin: 12px 0;
+    padding: 15px;
+    background-color: #f5f9ff;
+    border-radius: 15px;
+    border: 1px solid #e3f2fd;
+    font-size: 17px;
+    transition: 0.3s;
+}
+li:hover {
+    transform: translateX(5px);
+    background-color: #e3f2fd;
+    transition: 0.3s;
+}
+           button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 100%;
+        }
+        .call-button {
+    background-color: #1976d2;
+}
+button:hover {
+    opacity: 0.85;
+}
+.laundry-image:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+        footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #555;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+   .availability {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid #bbdefb;
+    box-shadow: 0 5px 15px rgba(25, 118, 210, 0.1);
+}
+
+.availability h2 {
+    margin-top: 0;
+}
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>🧺 Zulfa's Laundry</h1>
+    <img src="laundry.jpg" alt="Zulfa's Laundry" class="laundry-image">
+<p style="text-align: center; font-size: 18px; color: #555; font-style: italic;">
+    Clean clothes, fresh look, happy you! ✨
+</p>
+</p>
+
+    <h2>Our Services</h2><ul>
+    <li>🧺 Washing</li>
+    <li>👔 Ironing</li>
+    <li>👕 Folding</li>
+</ul>
+
+<div class="availability">
+    <h2>⏰ Available 24/7</h2>
+    <p>Our laundry service is available 24/7 to serve you whenever you need us.</p>
+</div>
+   
+    <h2>Why Choose Zulfa's Laundry?</h2><ul>
+    <li>Affordable prices</li>
+    <li>Quality laundry service</li>
+    <li>Neat and clean clothes</li>
+    <li>Available 24/7</li>
+    <li>Friendly customer service</li>
+</ul>
+<h2>About Zulfa's Laundry</h2><p>
+Zulfa's Laundry is a reliable and affordable laundry service
+dedicated to keeping your clothes clean, fresh and neatly
+prepared. We are available 24/7 to serve you whenever you need us.
+</p>
+    <h2 class="contact-title">📞 Contact Us</h2>
+
+<p>Contact us today for your laundry needs.</p>
+
+<a href="https://wa.me/233598726587" target="_blank">
+    <button>💬 Chat with us on WhatsApp</button>
+</a>
+<br><a href="tel:+233598726587">
+    <button class="call-button">📞 Call Zulfa's Laundry</button>
+</a>
+</a>
+</div>
+</body>
+<footer>
+    <p>© 2026 Zulfa's Laundry. All rights reserved.</p>
+    <p>Clean clothes, fresh look, happy you! 🧺✨</p>
+</footer>
+</html>
